@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexiveis</title>
+</head>
+
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt=" A imagem flexível funciona">
+    </picture>
+
+    <div>
+        <h1>Hello!</h1>
+        <picture>
+            <img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/gorgeous-sunset-over-the-sea-free-image.jpeg?h=800&quality=80"
+                alt="Imagem de um vasto mar iluminado pelo sol, por-do-sol">
+        </picture>
+    </div>
+
+    <h2>Áudio</h2>
+
+<ul type="square">
+    Musiquinha
+    <li >
+        <audio  preload="metadata" src="midia/Amber - VYEN.mp3" controls >
+            <p>Seu navegador não é compativel com a trilha de áudio.</p>
+        </audio>
+    </li>
+<br>
+    Efeito de agua
+    <li>
+        <audio preload="auto" src="midia/Water Running By.mp3" type="audio/mpeg" loop controls></audio>
+    </li>
+
+</ul>
+
+</body>
+
+</html>

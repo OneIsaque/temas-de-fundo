@@ -1,0 +1,51 @@
+
+
+
+
+
+#btn1{
+    background-color: yellowgreen;
+    border-bottom-color: yellow ;
+    border-style:initial;
+
+    border-bottom-style: solid;
+    border-radius: 100px;
+    
+}
+
+.t1{
+    position:absolute;
+    text-align: center;
+
+    left:45%;
+    text-decoration-style: solid;  
+    font-family:sans-serif;
+
+}
+
+.txt1{
+    position:absolute;
+    text-decoration: solid;
+    font-family: cursive;
+    
+
+    font-size: smaller;
+    text-size-adjust: auto;
+
+    text-align: left;
+    transform: translateX(-50%);
+    left: 35%;
+  
+    top: 89px;
+}
+
+
+.esfera3d {
+    position: absolute;
+    left:80%;
+
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, white, blue);
+    border-radius: 50%;
+}

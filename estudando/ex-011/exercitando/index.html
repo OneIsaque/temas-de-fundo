@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="fotos/favicon.ico" type="image/x-icon">
+    <title>Imagens Flexiveis (revisão)</title>
+</head>
+<body>
+    <h1>Testando</h1>
+
+    <picture>
+        <source media="(max-width: 350px)" srcset="fotos/favicon.ico" type="image/x-icon" alt="icon"name="ICON">
+        <source media="(max-width: 750px)" srcset="fotos/azi-p.png" type="image/png"name="P">
+       <source media="(max-width: 1050px)" srcset="fotos/azi-m.png" type="image/png"name="M">
+        <img src="fotos/azi-g.png" alt="Imagem tamanho g">
+    </picture>
+
+    <p>
+        texte
+    </p>
+
+</body>
+</html> 

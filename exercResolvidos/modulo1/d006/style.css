@@ -1,0 +1,16 @@
+
+
+#pesquisar{
+    text-align: center;
+    font-style: oblique;
+
+    border-style: solid; 
+    border-color: black;
+    border-radius: 100dvh;
+    border-bottom-width: 5px;
+    
+    margin-top: 18dvh; /*margin-top faz com que eu possa descer(reformatar o top dele) um poouco a posição do Top do div(Tags em HTML), o título.*/
+    position: relative;
+    left: 2dvh;    
+    text-decoration: solid;
+}

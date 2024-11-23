@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/*Regra @charset caso haja problemas com acentuação */
+
+body { 
+    display: flex; justify-content: center; /* Centraliza horizontalmente */ align-items: center; /* Centraliza verticalmente */ height: 100%; /* Faz o body ocupar x% da altura da viewport */ margin: 20px; /* Remove margens padrão */
+
+    flex-direction: column;
+
+}
+
+#azzi{
+    justify-self: left;
+    float: left;
+    border-radius: 20px;
+    align-self: flex-start;
+    
+}
+
+#tituloPrincipal{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 1dvh;
+
+    background-color: darkgrey;
+    border-radius: 20px;
+    
+    
+    height: 80px;
+    width: 180px;
+    font-size: 25px;
+}   
+
+.paragrafos{
+    width: 90dvh;
+    left: 20px;
+    top: 2px;
+
+    justify-self: center;
+    text-align: justify;
+}
+
